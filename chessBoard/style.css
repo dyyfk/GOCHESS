@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+	position: relative;
+}
+canvas{
+	border: 1px solid black;
+}
+
+.chatBox{
+	bottom: 20px;
+	right: auto;	
+	position: absolute;
+	width: 100;
+	height: 50px;
+}
+.request1,.request2,.request3{
+	position: absolute;
+	right:auto;
+	padding: 10px;
+}
+.request1{
+	top:40px;
+}
+.request2{
+	top: 80px;
+}
+.request3{
+	top: 120px;
+}
+
