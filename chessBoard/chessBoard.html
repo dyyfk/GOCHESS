@@ -6,21 +6,24 @@
     <style>
 
     </style>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="style.css">
 
 </head>
 <body>
+	<nav>
+		<i class="fas fa-cog" id ="options"></i>
+	</nav>
     <buttton id = "resignButton">
     </buttton>
     <canvas class="chessBoard">
     
     </canvas>
-	<input class="request1" type ="button"
-		   value="judgment">
-	<input class="request2" type ="button"
-		   value="resign">
-	<input class="request3" type ="button"
-		   value="call a draw">
+	<div class="button-container">
+		<button class="request1" type ="button">jugdment</button>
+		<button class="request2" type ="button">resign</button>
+		<button class="request3" type ="button">call a draw</button>
+	</div>
 	<input class="chatBox" type="text" placeholder="Chat to your opponent">	
     <script src = "chessBoard.js"></script>
 </body>
